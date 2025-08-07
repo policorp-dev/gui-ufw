@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+export PYBUILD_INSTALL_ARGS=--install-lib=usr/share/gufw --install-scripts=usr/bin
+
+%:
+	dh $@ --buildsystem=pybuild
+
+execute_after_dh_auto_clean:
+	if [ -f "debian/gufw.pot" ]; then \
+		mv debian/gufw.pot po/gufw.pot; \
+	fi
+
+execute_before_dh_auto_build:
+	# create a copy of po/gufw.pot before build as it is changed by setup.py
+	cp po/gufw.pot debian/gufw.pot
