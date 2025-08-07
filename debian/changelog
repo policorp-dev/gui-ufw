@@ -1,3 +1,9 @@
+gui-ufw (24.04.Policorp-5) unstable; urgency=medium
+
+  * Updated version in Policorp
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Thu, 07 Aug 2025 15:34:21 +0000
+
 gui-ufw (24.04.0-3) unstable; urgency=medium
 
   * Add patch to addd AppStream metadata. Closes: #1095187
