@@ -1,0 +1,13 @@
+Index: gui-ufw/gufw.desktop.in
+===================================================================
+--- gui-ufw.orig/gufw.desktop.in
++++ gui-ufw/gufw.desktop.in
+@@ -3,7 +3,7 @@ Version=1.0
+ _Name=Firewall Configuration
+ _Comment=An easy way to configure your firewall
+ Keywords=gufw;security;firewall;network;
+-Categories=GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
++Categories=Utility;
+ Exec=gufw
+ Icon=gufw
+ Terminal=false
