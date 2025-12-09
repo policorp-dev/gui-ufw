@@ -9,6 +9,7 @@ Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Homepage: https://costales.github.io/projects/gufw/
+Vcs-Git: https://github.com/policorp-dev/gui-ufw.git
 
 Package: gufw
 Architecture: all
